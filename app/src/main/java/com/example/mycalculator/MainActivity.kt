@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 else  if (tvValue.contains("+")){
-                    val splitvalue = tvValue.split("-")
+                    val splitvalue = tvValue.split("+")
 
                     var one =splitvalue[0]
                     var two =splitvalue[1]
@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 else  if (tvValue.contains("*")){
-                    val splitvalue = tvValue.split("-")
+                    val splitvalue = tvValue.split("*")
 
                     var one =splitvalue[0]
                     var two =splitvalue[1]
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 else  if (tvValue.contains("/")){
-                    val splitvalue = tvValue.split("-")
+                    val splitvalue = tvValue.split("/")
 
                     var one =splitvalue[0]
                     var two =splitvalue[1]
